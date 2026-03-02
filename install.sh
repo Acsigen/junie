@@ -9,7 +9,7 @@
 
 set -euo pipefail
 
-CHANNEL="eap"
+CHANNEL="release"
 UPDATE_INFO_URL="https://raw.githubusercontent.com/jetbrains-junie/junie/main/update-info.jsonl"
 GITHUB_RELEASES="https://github.com/jetbrains-junie/junie/releases"
 JUNIE_BIN="$HOME/.local/bin"
