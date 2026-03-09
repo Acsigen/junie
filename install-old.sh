@@ -427,51 +427,75 @@ ln -sfn "$TARGET_DIR" "$JUNIE_DATA/current"
 
 log "Installed successfully!"
 
+# Returns 0 if PATH was already set or profile was updated.
+# Returns 1 if profile could not be updated (caller shows manual instructions).
 add_to_path() {
-  if echo "$PATH" | tr ':' '\n' | grep -qx "$HOME/.local/bin"; then
-    return
-  fi
+  case ":$PATH:" in
+    *":$HOME/.local/bin:"*) return 0 ;;
+  esac
 
-  local shell_name
+  local shell_name export_line profile_files profile_dir
   shell_name=$(basename "${SHELL:-}" 2>/dev/null || echo "")
+  export_line='export PATH="$HOME/.local/bin:$PATH"'
 
-  local profile_file=""
-  local export_line='export PATH="$HOME/.local/bin:$PATH"'
   case "$shell_name" in
-    zsh)  profile_file="$HOME/.zshrc" ;;
+    zsh)
+      # .zshrc is preferred; .zprofile is the fallback (also sourced by login shells)
+      profile_files="$HOME/.zshrc $HOME/.zprofile"
+      ;;
     bash)
-      if [[ "$OS_NAME" == "macos" && -f "$HOME/.bash_profile" ]]; then
-        profile_file="$HOME/.bash_profile"
+      # macOS terminals open login shells (.bash_profile); Linux terminals open non-login shells (.bashrc)
+      if [[ "$OS_NAME" == "macos" ]]; then
+        profile_files="$HOME/.bash_profile $HOME/.profile"
       else
-        profile_file="$HOME/.bashrc"
+        profile_files="$HOME/.bashrc $HOME/.profile"
       fi
       ;;
     fish)
-      profile_file="$HOME/.config/fish/config.fish"
+      profile_files="$HOME/.config/fish/config.fish"
       export_line='fish_add_path "$HOME/.local/bin"'
       ;;
-    *)    profile_file="$HOME/.profile" ;;
+    *)
+      profile_files="$HOME/.profile"
+      ;;
   esac
 
-  if [[ -f "$profile_file" ]] && grep -q '\.local/bin' "$profile_file"; then
-    return
-  fi
+  local file
+  for file in $profile_files; do
+    if [[ -f "$file" ]] && grep -q '\.local/bin' "$file" 2>/dev/null; then
+      return 0
+    fi
+  done
 
-  if ! echo "" >> "$profile_file" 2>/dev/null || ! echo "$export_line" >> "$profile_file" 2>/dev/null; then
-    echo ""
-    echo "Add to your PATH manually:"
-    echo "  $export_line"
-    return
-  fi
-  log "Added $JUNIE_BIN to PATH in $profile_file"
+  for file in $profile_files; do
+    profile_dir=$(dirname "$file")
+    if [[ ! -d "$profile_dir" ]]; then
+      mkdir -p "$profile_dir" 2>/dev/null || continue
+    fi
+    if { printf '\n%s\n' "$export_line" >> "$file"; } 2>/dev/null; then
+      log "Added $JUNIE_BIN to PATH in $file"
+      return 0
+    fi
+  done
+
+  return 1
 }
 
-add_to_path
-
-if echo "$PATH" | tr ':' '\n' | grep -qx "$HOME/.local/bin"; then
-  echo ""
-  echo "Run: junie --help"
+if add_to_path; then
+  case ":$PATH:" in
+    *":$HOME/.local/bin:"*)
+      echo ""
+      echo "Run: junie --help"
+      ;;
+    *)
+      echo ""
+      echo "Restart your shell, then run: junie --help"
+      ;;
+  esac
 else
   echo ""
-  echo "Restart your shell, then run: junie --help"
+  echo "Manually add to your PATH:"
+  echo '  export PATH="$HOME/.local/bin:$PATH"'
+  echo ""
+  echo "Then run: junie --help"
 fi
