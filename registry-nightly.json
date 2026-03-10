@@ -310,7 +310,7 @@
     {
       "id": "factory-droid",
       "name": "Factory Droid",
-      "version": "0.70.0",
+      "version": "0.71.0",
       "description": "Factory Droid - AI coding agent powered by Factory AI",
       "authors": [
         "Factory AI"
@@ -318,7 +318,7 @@
       "license": "proprietary",
       "distribution": {
         "npx": {
-          "package": "droid@0.70.0",
+          "package": "droid@0.71.0",
           "args": [
             "exec",
             "--output-format",
@@ -375,7 +375,7 @@
     {
       "id": "github-copilot-cli",
       "name": "GitHub Copilot",
-      "version": "1.0.2",
+      "version": "1.0.3",
       "description": "GitHub's AI pair programmer",
       "repository": "https://github.com/github/copilot-cli",
       "authors": [
@@ -384,7 +384,7 @@
       "license": "proprietary",
       "distribution": {
         "npx": {
-          "package": "@github/copilot@1.0.2",
+          "package": "@github/copilot@1.0.3",
           "args": [
             "--acp"
           ]
@@ -446,7 +446,7 @@
     {
       "id": "junie",
       "name": "Junie",
-      "version": "1045.1",
+      "version": "1047.1",
       "description": "AI Coding Agent by JetBrains",
       "repository": "https://github.com/JetBrains/junie",
       "authors": [
@@ -627,7 +627,7 @@
     {
       "id": "nova",
       "name": "Nova",
-      "version": "1.0.74",
+      "version": "1.0.75",
       "description": "Nova by Compass AI - a fully-fledged software engineer at your command",
       "repository": "https://github.com/Compass-Agentic-Platform/nova",
       "authors": [
@@ -637,7 +637,7 @@
       "icon": "https://cdn.agentclientprotocol.com/registry/v1/latest/nova.svg",
       "distribution": {
         "npx": {
-          "package": "@compass-ai/nova@1.0.74",
+          "package": "@compass-ai/nova@1.0.75",
           "args": [
             "acp"
           ]
