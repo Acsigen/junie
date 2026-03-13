@@ -117,7 +117,7 @@
     {
       "id": "codebuddy-code",
       "name": "Codebuddy Code",
-      "version": "2.61.2",
+      "version": "2.61.3",
       "description": "Tencent Cloud's official intelligent coding tool",
       "repository": "https://www.codebuddy.cn/cli/",
       "authors": [
@@ -126,7 +126,7 @@
       "license": "Proprietary",
       "distribution": {
         "npx": {
-          "package": "@tencent-ai/codebuddy-code@2.61.2",
+          "package": "@tencent-ai/codebuddy-code@2.61.3",
           "args": [
             "--acp"
           ]
@@ -393,7 +393,7 @@
     {
       "id": "github-copilot-cli",
       "name": "GitHub Copilot",
-      "version": "1.0.4",
+      "version": "1.0.5",
       "description": "GitHub's AI pair programmer",
       "repository": "https://github.com/github/copilot-cli",
       "authors": [
@@ -402,7 +402,7 @@
       "license": "proprietary",
       "distribution": {
         "npx": {
-          "package": "@github/copilot@1.0.4",
+          "package": "@github/copilot@1.0.5",
           "args": [
             "--acp"
           ]
@@ -464,7 +464,7 @@
     {
       "id": "junie",
       "name": "Junie",
-      "version": "1089.1",
+      "version": "1090.1",
       "description": "AI Coding Agent by JetBrains",
       "repository": "https://github.com/JetBrains/junie",
       "authors": [
@@ -764,7 +764,7 @@
     {
       "id": "qoder",
       "name": "Qoder CLI",
-      "version": "0.1.30",
+      "version": "0.1.31",
       "description": "AI coding assistant with agentic capabilities",
       "authors": [
         "Qoder AI"
@@ -773,7 +773,7 @@
       "icon": "https://cdn.agentclientprotocol.com/registry/v1/latest/qoder.svg",
       "distribution": {
         "npx": {
-          "package": "@qoder-ai/qodercli@0.1.30",
+          "package": "@qoder-ai/qodercli@0.1.31",
           "args": [
             "--acp"
           ]
