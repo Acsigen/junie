@@ -291,7 +291,7 @@
     {
       "id": "deepagents",
       "name": "DeepAgents",
-      "version": "0.1.1",
+      "version": "0.1.2",
       "description": "Batteries-included AI coding and general purpose agent powered by LangChain.",
       "repository": "https://github.com/langchain-ai/deepagentsjs",
       "authors": [
@@ -300,7 +300,7 @@
       "license": "MIT",
       "distribution": {
         "npx": {
-          "package": "deepagents-acp@0.1.1",
+          "package": "deepagents-acp@0.1.2",
           "args": []
         }
       },
@@ -328,7 +328,7 @@
     {
       "id": "factory-droid",
       "name": "Factory Droid",
-      "version": "0.74.0",
+      "version": "0.75.0",
       "description": "Factory Droid - AI coding agent powered by Factory AI",
       "authors": [
         "Factory AI"
@@ -336,7 +336,7 @@
       "license": "proprietary",
       "distribution": {
         "npx": {
-          "package": "droid@0.74.0",
+          "package": "droid@0.75.0",
           "args": [
             "exec",
             "--output-format",
@@ -464,7 +464,7 @@
     {
       "id": "junie",
       "name": "Junie",
-      "version": "1103.1",
+      "version": "1105.1",
       "description": "AI Coding Agent by JetBrains",
       "repository": "https://github.com/JetBrains/junie",
       "authors": [
