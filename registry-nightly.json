@@ -181,7 +181,7 @@
     {
       "id": "corust-agent",
       "name": "Corust Agent",
-      "version": "0.3.8",
+      "version": "0.4.0",
       "description": "Co-building with a seasoned Rust partner.",
       "repository": "https://github.com/Corust-ai/corust-agent-release",
       "authors": [
@@ -191,19 +191,19 @@
       "distribution": {
         "binary": {
           "darwin-aarch64": {
-            "archive": "https://github.com/Corust-ai/corust-agent-release/releases/download/v0.3.8/agent-darwin-arm64.tar.gz",
+            "archive": "https://github.com/Corust-ai/corust-agent-release/releases/download/v0.4.0/agent-darwin-arm64.tar.gz",
             "cmd": "./corust-agent-acp"
           },
           "darwin-x86_64": {
-            "archive": "https://github.com/Corust-ai/corust-agent-release/releases/download/v0.3.8/agent-darwin-x64.tar.gz",
+            "archive": "https://github.com/Corust-ai/corust-agent-release/releases/download/v0.4.0/agent-darwin-x64.tar.gz",
             "cmd": "./corust-agent-acp"
           },
           "linux-x86_64": {
-            "archive": "https://github.com/Corust-ai/corust-agent-release/releases/download/v0.3.8/agent-linux-x64.tar.gz",
+            "archive": "https://github.com/Corust-ai/corust-agent-release/releases/download/v0.4.0/agent-linux-x64.tar.gz",
             "cmd": "./corust-agent-acp"
           },
           "windows-x86_64": {
-            "archive": "https://github.com/Corust-ai/corust-agent-release/releases/download/v0.3.8/agent-windows-x64.zip",
+            "archive": "https://github.com/Corust-ai/corust-agent-release/releases/download/v0.4.0/agent-windows-x64.zip",
             "cmd": "./corust-agent-acp.exe"
           }
         }
@@ -353,7 +353,7 @@
     {
       "id": "fast-agent",
       "name": "fast-agent",
-      "version": "0.5.11",
+      "version": "0.6.0",
       "description": "Code and build agents with comprehensive multi-provider support",
       "repository": "https://github.com/evalstate/fast-agent",
       "authors": [
@@ -362,7 +362,7 @@
       "license": "Apache 2.0",
       "distribution": {
         "uvx": {
-          "package": "fast-agent-acp==0.5.11",
+          "package": "fast-agent-acp==0.6.0",
           "args": [
             "-x"
           ]
@@ -464,7 +464,7 @@
     {
       "id": "junie",
       "name": "Junie",
-      "version": "1130.1",
+      "version": "1136.1",
       "description": "AI Coding Agent by JetBrains",
       "repository": "https://github.com/JetBrains/junie",
       "authors": [
@@ -474,35 +474,35 @@
       "distribution": {
         "binary": {
           "darwin-aarch64": {
-            "archive": "https://github.com/JetBrains/junie/releases/download/1130.1/junie-nightly-1130.1-macos-aarch64.zip",
+            "archive": "https://github.com/JetBrains/junie/releases/download/1136.1/junie-nightly-1136.1-macos-aarch64.zip",
             "cmd": "./Applications/junie.app/Contents/MacOS/junie",
             "args": [
               "--acp=true"
             ]
           },
           "darwin-x86_64": {
-            "archive": "https://github.com/JetBrains/junie/releases/download/1130.1/junie-nightly-1130.1-macos-amd64.zip",
+            "archive": "https://github.com/JetBrains/junie/releases/download/1136.1/junie-nightly-1136.1-macos-amd64.zip",
             "cmd": "./Applications/junie.app/Contents/MacOS/junie",
             "args": [
               "--acp=true"
             ]
           },
           "linux-aarch64": {
-            "archive": "https://github.com/JetBrains/junie/releases/download/1130.1/junie-nightly-1130.1-linux-aarch64.zip",
+            "archive": "https://github.com/JetBrains/junie/releases/download/1136.1/junie-nightly-1136.1-linux-aarch64.zip",
             "cmd": "./junie-app/bin/junie",
             "args": [
               "--acp=true"
             ]
           },
           "linux-x86_64": {
-            "archive": "https://github.com/JetBrains/junie/releases/download/1130.1/junie-nightly-1130.1-linux-amd64.zip",
+            "archive": "https://github.com/JetBrains/junie/releases/download/1136.1/junie-nightly-1136.1-linux-amd64.zip",
             "cmd": "./junie-app/bin/junie",
             "args": [
               "--acp=true"
             ]
           },
           "windows-x86_64": {
-            "archive": "https://github.com/JetBrains/junie/releases/download/1130.1/junie-nightly-1130.1-windows-amd64.zip",
+            "archive": "https://github.com/JetBrains/junie/releases/download/1136.1/junie-nightly-1136.1-windows-amd64.zip",
             "cmd": "./junie/junie.exe",
             "args": [
               "--acp=true"
@@ -764,7 +764,7 @@
     {
       "id": "qoder",
       "name": "Qoder CLI",
-      "version": "0.1.31",
+      "version": "0.1.32",
       "description": "AI coding assistant with agentic capabilities",
       "authors": [
         "Qoder AI"
@@ -773,7 +773,7 @@
       "icon": "https://cdn.agentclientprotocol.com/registry/v1/latest/qoder.svg",
       "distribution": {
         "npx": {
-          "package": "@qoder-ai/qodercli@0.1.31",
+          "package": "@qoder-ai/qodercli@0.1.32",
           "args": [
             "--acp"
           ]
@@ -783,7 +783,7 @@
     {
       "id": "qwen-code",
       "name": "Qwen Code",
-      "version": "0.12.5",
+      "version": "0.12.6",
       "description": "Alibaba's Qwen coding assistant",
       "repository": "https://github.com/QwenLM/qwen-code",
       "authors": [
@@ -792,7 +792,7 @@
       "license": "Apache-2.0",
       "distribution": {
         "npx": {
-          "package": "@qwen-code/qwen-code@0.12.5",
+          "package": "@qwen-code/qwen-code@0.12.6",
           "args": [
             "--acp",
             "--experimental-skills"
