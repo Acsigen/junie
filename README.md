@@ -7,8 +7,8 @@ Learn more at the **[official website](https://junie.jetbrains.com/).**
 
 ![Junie CLI Screenshot](./assets/junie-cli.gif)
 
-## ✦ Gemini 3 Flash — free for up to 7 days
-Includes up to $50 usage per user. Subject to the overall program limit. Limited-time offer.
+## ✦ Gemini 3 Flash — free for up to 50$
+Subject to the overall program limit. Limited-time offer.
 
 <br>
 
