@@ -80,7 +80,7 @@
     {
       "id": "claude-acp",
       "name": "Claude Agent",
-      "version": "0.22.0",
+      "version": "0.22.1",
       "description": "ACP wrapper for Anthropic's Claude",
       "repository": "https://github.com/zed-industries/claude-agent-acp",
       "authors": [
@@ -89,7 +89,7 @@
       "license": "proprietary",
       "distribution": {
         "npx": {
-          "package": "@zed-industries/claude-agent-acp@0.22.0"
+          "package": "@zed-industries/claude-agent-acp@0.22.1"
         }
       },
       "icon": "https://cdn.agentclientprotocol.com/registry/v1/latest/claude-acp.svg"
@@ -117,7 +117,7 @@
     {
       "id": "codebuddy-code",
       "name": "Codebuddy Code",
-      "version": "2.63.2",
+      "version": "2.63.3",
       "description": "Tencent Cloud's official intelligent coding tool",
       "repository": "https://www.codebuddy.cn/cli/",
       "authors": [
@@ -126,7 +126,7 @@
       "license": "Proprietary",
       "distribution": {
         "npx": {
-          "package": "@tencent-ai/codebuddy-code@2.63.2",
+          "package": "@tencent-ai/codebuddy-code@2.63.3",
           "args": [
             "--acp"
           ]
@@ -291,7 +291,7 @@
     {
       "id": "deepagents",
       "name": "DeepAgents",
-      "version": "0.1.2",
+      "version": "0.1.3",
       "description": "Batteries-included AI coding and general purpose agent powered by LangChain.",
       "repository": "https://github.com/langchain-ai/deepagentsjs",
       "authors": [
@@ -300,7 +300,7 @@
       "license": "MIT",
       "distribution": {
         "npx": {
-          "package": "deepagents-acp@0.1.2",
+          "package": "deepagents-acp@0.1.3",
           "args": []
         }
       },
@@ -328,7 +328,7 @@
     {
       "id": "factory-droid",
       "name": "Factory Droid",
-      "version": "0.76.0",
+      "version": "0.79.0",
       "description": "Factory Droid - AI coding agent powered by Factory AI",
       "authors": [
         "Factory AI"
@@ -336,7 +336,7 @@
       "license": "proprietary",
       "distribution": {
         "npx": {
-          "package": "droid@0.76.0",
+          "package": "droid@0.79.0",
           "args": [
             "exec",
             "--output-format",
@@ -353,7 +353,7 @@
     {
       "id": "fast-agent",
       "name": "fast-agent",
-      "version": "0.6.0",
+      "version": "0.6.1",
       "description": "Code and build agents with comprehensive multi-provider support",
       "repository": "https://github.com/evalstate/fast-agent",
       "authors": [
@@ -362,7 +362,7 @@
       "license": "Apache 2.0",
       "distribution": {
         "uvx": {
-          "package": "fast-agent-acp==0.6.0",
+          "package": "fast-agent-acp==0.6.1",
           "args": [
             "-x"
           ]
@@ -373,7 +373,7 @@
     {
       "id": "gemini",
       "name": "Gemini CLI",
-      "version": "0.33.2",
+      "version": "0.34.0",
       "description": "Google's official CLI for Gemini",
       "repository": "https://github.com/google-gemini/gemini-cli",
       "authors": [
@@ -382,7 +382,7 @@
       "license": "Apache-2.0",
       "distribution": {
         "npx": {
-          "package": "@google/gemini-cli@0.33.2",
+          "package": "@google/gemini-cli@0.34.0",
           "args": [
             "--acp"
           ]
@@ -464,7 +464,7 @@
     {
       "id": "junie",
       "name": "Junie",
-      "version": "1142.1",
+      "version": "1144.1",
       "description": "AI Coding Agent by JetBrains",
       "repository": "https://github.com/JetBrains/junie",
       "authors": [
@@ -474,35 +474,35 @@
       "distribution": {
         "binary": {
           "darwin-aarch64": {
-            "archive": "https://github.com/JetBrains/junie/releases/download/1142.1/junie-nightly-1142.1-macos-aarch64.zip",
+            "archive": "https://github.com/JetBrains/junie/releases/download/1144.1/junie-nightly-1144.1-macos-aarch64.zip",
             "cmd": "./Applications/junie.app/Contents/MacOS/junie",
             "args": [
               "--acp=true"
             ]
           },
           "darwin-x86_64": {
-            "archive": "https://github.com/JetBrains/junie/releases/download/1142.1/junie-nightly-1142.1-macos-amd64.zip",
+            "archive": "https://github.com/JetBrains/junie/releases/download/1144.1/junie-nightly-1144.1-macos-amd64.zip",
             "cmd": "./Applications/junie.app/Contents/MacOS/junie",
             "args": [
               "--acp=true"
             ]
           },
           "linux-aarch64": {
-            "archive": "https://github.com/JetBrains/junie/releases/download/1142.1/junie-nightly-1142.1-linux-aarch64.zip",
+            "archive": "https://github.com/JetBrains/junie/releases/download/1144.1/junie-nightly-1144.1-linux-aarch64.zip",
             "cmd": "./junie-app/bin/junie",
             "args": [
               "--acp=true"
             ]
           },
           "linux-x86_64": {
-            "archive": "https://github.com/JetBrains/junie/releases/download/1142.1/junie-nightly-1142.1-linux-amd64.zip",
+            "archive": "https://github.com/JetBrains/junie/releases/download/1144.1/junie-nightly-1144.1-linux-amd64.zip",
             "cmd": "./junie-app/bin/junie",
             "args": [
               "--acp=true"
             ]
           },
           "windows-x86_64": {
-            "archive": "https://github.com/JetBrains/junie/releases/download/1142.1/junie-nightly-1142.1-windows-amd64.zip",
+            "archive": "https://github.com/JetBrains/junie/releases/download/1144.1/junie-nightly-1144.1-windows-amd64.zip",
             "cmd": "./junie/junie.exe",
             "args": [
               "--acp=true"
