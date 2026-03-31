@@ -239,7 +239,7 @@
     {
       "id": "cursor",
       "name": "Cursor",
-      "version": "0.1.0",
+      "version": "2026.03.30",
       "description": "Cursor's coding agent",
       "website": "https://cursor.com/docs/cli/acp",
       "authors": [
@@ -249,42 +249,42 @@
       "distribution": {
         "binary": {
           "darwin-aarch64": {
-            "archive": "https://downloads.cursor.com/lab/2026.03.05-2bf2031/darwin/arm64/agent-cli-package.tar.gz",
+            "archive": "https://downloads.cursor.com/lab/2026.03.30-a5d3e17/darwin/arm64/agent-cli-package.tar.gz",
             "cmd": "./dist-package/cursor-agent",
             "args": [
               "acp"
             ]
           },
           "darwin-x86_64": {
-            "archive": "https://downloads.cursor.com/lab/2026.03.05-2bf2031/darwin/x64/agent-cli-package.tar.gz",
+            "archive": "https://downloads.cursor.com/lab/2026.03.30-a5d3e17/darwin/x64/agent-cli-package.tar.gz",
             "cmd": "./dist-package/cursor-agent",
             "args": [
               "acp"
             ]
           },
           "linux-aarch64": {
-            "archive": "https://downloads.cursor.com/lab/2026.03.05-2bf2031/linux/arm64/agent-cli-package.tar.gz",
+            "archive": "https://downloads.cursor.com/lab/2026.03.30-a5d3e17/linux/arm64/agent-cli-package.tar.gz",
             "cmd": "./dist-package/cursor-agent",
             "args": [
               "acp"
             ]
           },
           "linux-x86_64": {
-            "archive": "https://downloads.cursor.com/lab/2026.03.05-2bf2031/linux/x64/agent-cli-package.tar.gz",
+            "archive": "https://downloads.cursor.com/lab/2026.03.30-a5d3e17/linux/x64/agent-cli-package.tar.gz",
             "cmd": "./dist-package/cursor-agent",
             "args": [
               "acp"
             ]
           },
           "windows-aarch64": {
-            "archive": "https://downloads.cursor.com/lab/2026.03.05-2bf2031/windows/arm64/agent-cli-package.zip",
+            "archive": "https://downloads.cursor.com/lab/2026.03.30-a5d3e17/windows/arm64/agent-cli-package.zip",
             "cmd": "./dist-package\\cursor-agent.cmd",
             "args": [
               "acp"
             ]
           },
           "windows-x86_64": {
-            "archive": "https://downloads.cursor.com/lab/2026.03.05-2bf2031/windows/x64/agent-cli-package.zip",
+            "archive": "https://downloads.cursor.com/lab/2026.03.30-a5d3e17/windows/x64/agent-cli-package.zip",
             "cmd": "./dist-package\\cursor-agent.cmd",
             "args": [
               "acp"
@@ -297,7 +297,7 @@
     {
       "id": "deepagents",
       "name": "DeepAgents",
-      "version": "0.1.5",
+      "version": "0.1.7",
       "description": "Batteries-included AI coding and general purpose agent powered by LangChain.",
       "repository": "https://github.com/langchain-ai/deepagentsjs",
       "website": "https://docs.langchain.com/oss/javascript/deepagents/overview",
@@ -307,7 +307,7 @@
       "license": "MIT",
       "distribution": {
         "npx": {
-          "package": "deepagents-acp@0.1.5",
+          "package": "deepagents-acp@0.1.7",
           "args": []
         }
       },
@@ -335,7 +335,7 @@
     {
       "id": "factory-droid",
       "name": "Factory Droid",
-      "version": "0.89.1",
+      "version": "0.90.0",
       "description": "Factory Droid - AI coding agent powered by Factory AI",
       "website": "https://factory.ai/product/cli",
       "authors": [
@@ -344,7 +344,7 @@
       "license": "proprietary",
       "distribution": {
         "npx": {
-          "package": "droid@0.89.1",
+          "package": "droid@0.90.0",
           "args": [
             "exec",
             "--output-format",
@@ -403,7 +403,7 @@
     {
       "id": "github-copilot-cli",
       "name": "GitHub Copilot",
-      "version": "1.0.13",
+      "version": "1.0.14",
       "description": "GitHub's AI pair programmer",
       "repository": "https://github.com/github/copilot-cli",
       "website": "https://github.com/features/copilot/cli/",
@@ -413,7 +413,7 @@
       "license": "proprietary",
       "distribution": {
         "npx": {
-          "package": "@github/copilot@1.0.13",
+          "package": "@github/copilot@1.0.14",
           "args": [
             "--acp"
           ]
@@ -424,7 +424,7 @@
     {
       "id": "goose",
       "name": "goose",
-      "version": "1.28.0",
+      "version": "1.29.0",
       "description": "A local, extensible, open source AI agent that automates engineering tasks",
       "repository": "https://github.com/block/goose",
       "website": "https://block.github.io/goose/",
@@ -435,35 +435,35 @@
       "distribution": {
         "binary": {
           "darwin-aarch64": {
-            "archive": "https://github.com/block/goose/releases/download/v1.28.0/goose-aarch64-apple-darwin.tar.bz2",
+            "archive": "https://github.com/block/goose/releases/download/v1.29.0/goose-aarch64-apple-darwin.tar.bz2",
             "cmd": "./goose",
             "args": [
               "acp"
             ]
           },
           "darwin-x86_64": {
-            "archive": "https://github.com/block/goose/releases/download/v1.28.0/goose-x86_64-apple-darwin.tar.bz2",
+            "archive": "https://github.com/block/goose/releases/download/v1.29.0/goose-x86_64-apple-darwin.tar.bz2",
             "cmd": "./goose",
             "args": [
               "acp"
             ]
           },
           "linux-aarch64": {
-            "archive": "https://github.com/block/goose/releases/download/v1.28.0/goose-aarch64-unknown-linux-gnu.tar.bz2",
+            "archive": "https://github.com/block/goose/releases/download/v1.29.0/goose-aarch64-unknown-linux-gnu.tar.bz2",
             "cmd": "./goose",
             "args": [
               "acp"
             ]
           },
           "linux-x86_64": {
-            "archive": "https://github.com/block/goose/releases/download/v1.28.0/goose-x86_64-unknown-linux-gnu.tar.bz2",
+            "archive": "https://github.com/block/goose/releases/download/v1.29.0/goose-x86_64-unknown-linux-gnu.tar.bz2",
             "cmd": "./goose",
             "args": [
               "acp"
             ]
           },
           "windows-x86_64": {
-            "archive": "https://github.com/block/goose/releases/download/v1.28.0/goose-x86_64-pc-windows-msvc.zip",
+            "archive": "https://github.com/block/goose/releases/download/v1.29.0/goose-x86_64-pc-windows-msvc.zip",
             "cmd": "./goose-package\\goose.exe",
             "args": [
               "acp"
@@ -476,7 +476,7 @@
     {
       "id": "junie",
       "name": "Junie",
-      "version": "1311.1",
+      "version": "1313.1",
       "description": "AI Coding Agent by JetBrains",
       "repository": "https://github.com/JetBrains/junie",
       "website": "https://junie.jetbrains.com",
@@ -487,35 +487,35 @@
       "distribution": {
         "binary": {
           "darwin-aarch64": {
-            "archive": "https://github.com/JetBrains/junie/releases/download/1311.1/junie-nightly-1311.1-macos-aarch64.zip",
+            "archive": "https://github.com/JetBrains/junie/releases/download/1313.1/junie-nightly-1313.1-macos-aarch64.zip",
             "cmd": "./Applications/junie.app/Contents/MacOS/junie",
             "args": [
               "--acp=true"
             ]
           },
           "darwin-x86_64": {
-            "archive": "https://github.com/JetBrains/junie/releases/download/1311.1/junie-nightly-1311.1-macos-amd64.zip",
+            "archive": "https://github.com/JetBrains/junie/releases/download/1313.1/junie-nightly-1313.1-macos-amd64.zip",
             "cmd": "./Applications/junie.app/Contents/MacOS/junie",
             "args": [
               "--acp=true"
             ]
           },
           "linux-aarch64": {
-            "archive": "https://github.com/JetBrains/junie/releases/download/1311.1/junie-nightly-1311.1-linux-aarch64.zip",
+            "archive": "https://github.com/JetBrains/junie/releases/download/1313.1/junie-nightly-1313.1-linux-aarch64.zip",
             "cmd": "./junie-app/bin/junie",
             "args": [
               "--acp=true"
             ]
           },
           "linux-x86_64": {
-            "archive": "https://github.com/JetBrains/junie/releases/download/1311.1/junie-nightly-1311.1-linux-amd64.zip",
+            "archive": "https://github.com/JetBrains/junie/releases/download/1313.1/junie-nightly-1313.1-linux-amd64.zip",
             "cmd": "./junie-app/bin/junie",
             "args": [
               "--acp=true"
             ]
           },
           "windows-x86_64": {
-            "archive": "https://github.com/JetBrains/junie/releases/download/1311.1/junie-nightly-1311.1-windows-amd64.zip",
+            "archive": "https://github.com/JetBrains/junie/releases/download/1313.1/junie-nightly-1313.1-windows-amd64.zip",
             "cmd": "./junie/junie.exe",
             "args": [
               "--acp=true"
@@ -692,7 +692,7 @@
     {
       "id": "nova",
       "name": "Nova",
-      "version": "1.0.90",
+      "version": "1.0.91",
       "description": "Nova by Compass AI - a fully-fledged software engineer at your command",
       "repository": "https://github.com/Compass-Agentic-Platform/nova",
       "website": "https://www.compassap.ai/portfolio/nova.html",
@@ -703,7 +703,7 @@
       "icon": "https://cdn.agentclientprotocol.com/registry/v1/latest/nova.svg",
       "distribution": {
         "npx": {
-          "package": "@compass-ai/nova@1.0.90",
+          "package": "@compass-ai/nova@1.0.91",
           "args": [
             "acp"
           ]
@@ -713,7 +713,7 @@
     {
       "id": "opencode",
       "name": "OpenCode",
-      "version": "1.3.7",
+      "version": "1.3.9",
       "description": "The open source coding agent",
       "repository": "https://github.com/anomalyco/opencode",
       "website": "https://opencode.ai",
@@ -725,35 +725,35 @@
       "distribution": {
         "binary": {
           "darwin-aarch64": {
-            "archive": "https://github.com/anomalyco/opencode/releases/download/v1.3.7/opencode-darwin-arm64.zip",
+            "archive": "https://github.com/anomalyco/opencode/releases/download/v1.3.9/opencode-darwin-arm64.zip",
             "cmd": "./opencode",
             "args": [
               "acp"
             ]
           },
           "darwin-x86_64": {
-            "archive": "https://github.com/anomalyco/opencode/releases/download/v1.3.7/opencode-darwin-x64.zip",
+            "archive": "https://github.com/anomalyco/opencode/releases/download/v1.3.9/opencode-darwin-x64.zip",
             "cmd": "./opencode",
             "args": [
               "acp"
             ]
           },
           "linux-aarch64": {
-            "archive": "https://github.com/anomalyco/opencode/releases/download/v1.3.7/opencode-linux-arm64.tar.gz",
+            "archive": "https://github.com/anomalyco/opencode/releases/download/v1.3.9/opencode-linux-arm64.tar.gz",
             "cmd": "./opencode",
             "args": [
               "acp"
             ]
           },
           "linux-x86_64": {
-            "archive": "https://github.com/anomalyco/opencode/releases/download/v1.3.7/opencode-linux-x64.tar.gz",
+            "archive": "https://github.com/anomalyco/opencode/releases/download/v1.3.9/opencode-linux-x64.tar.gz",
             "cmd": "./opencode",
             "args": [
               "acp"
             ]
           },
           "windows-x86_64": {
-            "archive": "https://github.com/anomalyco/opencode/releases/download/v1.3.7/opencode-windows-x64.zip",
+            "archive": "https://github.com/anomalyco/opencode/releases/download/v1.3.9/opencode-windows-x64.zip",
             "cmd": "./opencode.exe",
             "args": [
               "acp"
@@ -765,7 +765,7 @@
     {
       "id": "pi-acp",
       "name": "pi ACP",
-      "version": "0.0.23",
+      "version": "0.0.24",
       "description": "ACP adapter for pi coding agent",
       "repository": "https://github.com/svkozak/pi-acp",
       "authors": [
@@ -774,7 +774,7 @@
       "license": "MIT",
       "distribution": {
         "npx": {
-          "package": "pi-acp@0.0.23"
+          "package": "pi-acp@0.0.24"
         }
       },
       "icon": "https://cdn.agentclientprotocol.com/registry/v1/latest/pi-acp.svg"
